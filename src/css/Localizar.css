@@ -1,0 +1,22 @@
+.Localizar {
+  padding: 24px;
+}
+
+.Localizar input {
+  padding: 16px;
+  width: 100%;
+  box-shadow: 1px 2px 5px rgba(0,0,0,.2);
+  transition: box-shadow 0.2s ease-in;
+    will-change: transform,box-shadow; /* melhorar a performace da animação.*/
+}
+
+.Localizar input:hover,
+.Localizar input:focus,
+.Localizar input:active {
+  box-shadow: 2px 3px 5px rgba(0,0,0,.3);
+}
+
+.Localizar:hover input {
+	transform: translateY(-4px);/*sube -4px para cima*/
+	box-shadow : 2px 5px 10px rgba(0,0,0,0.4);
+}

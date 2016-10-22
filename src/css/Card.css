@@ -1,0 +1,15 @@
+.Card {
+	margin-left:25px;
+	float:left;
+	background:#fff;
+	padding:20px;
+	border-radius:12px; /*borda arredondada*/
+	box-shadow: 2px 3px 9px rgba(0,0,0,0.2); /*1-y(vertical) 2-x(horizontal)*/
+	transition: 0.2s ease-in; /* não fazer transação dura 1-parametro duração , 2- tipo de animação*/
+	will-change: transform,box-shadow; /* melhorar a performace da animação.*/
+}
+
+.Card:hover {
+	transform: translateY(-4px);/*sube -4px para cima*/
+	box-shadow : 2px 5px 10px rgba(0,0,0,0.2);
+}
